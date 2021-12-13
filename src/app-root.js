@@ -2,7 +2,7 @@ import { customElement, property, LitElement, html, css } from 'lit-element';
 
 @customElement('app-root')
 export class AppRoot extends LitElement {
-  @property() message = 'Learn LitElement';
+  @property() message = ' Hackaton23';
 
   static get styles() {
     return css`
@@ -28,7 +28,7 @@ export class AppRoot extends LitElement {
   render() {
     return html`
       <div class="wrapper">
-        <h1>LitElement + Snowpack</h1>
+        <h1>Hackaton 23</h1>
         <p>Edit <code>src/app-root.js</code> and save to reload.</p>
         <a
           class="link"
